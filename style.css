@@ -1,0 +1,105 @@
+body{
+    max-width: 1440px;
+    font-size: 15px;
+}
+
+
+ body .container{
+    margin:auto;
+
+}
+
+
+body .container .row{
+    width: 85%;
+    margin-top: 100px;
+    margin-left: 125px;
+    margin-right: 50px;
+    position: relative;
+    
+}
+
+
+body .container .row .col button{
+    margin-top:25px ;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    border-radius: 50px;
+    width: 130px;
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    border-color: white;
+}
+
+
+body .container .row .col .btn1:hover{
+    
+    cursor: pointer;
+    background-color:hsl(31, 77%, 52%);
+    border-color: white;
+    
+}
+
+body .container .row .col .btn2:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    
+    cursor: pointer;
+    border-color: white;
+}
+
+body .container .row .col .btn3:hover{
+    
+    border-color: white;
+    cursor:pointer;
+    background-color: hsl(179, 100%, 13%);
+    
+}
+
+
+h2{
+    color: white;
+    margin: 15px;
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    margin: 30px 15px 80px 15px ;
+    width: 210px;
+    color: whitesmoke;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+
+body .container .row .col .btn1 span:hover{
+    color: white;
+}
+body .container .row .col .btn2 span:hover{
+    color: white;
+}
+body .container .row .col .btn3 span:hover{
+    color: white;
+}
+
+.photo{
+    margin: 50px 0 10px 15px;
+}
+
+
+@media(min-width:375px){
+    .col{
+        width: 100%;
+        
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-radius: 0px;
+        
+        
+    }
+}
+
+
